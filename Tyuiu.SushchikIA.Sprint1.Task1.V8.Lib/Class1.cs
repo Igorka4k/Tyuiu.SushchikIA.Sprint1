@@ -6,7 +6,7 @@ namespace Tyuiu.SushchikIA.Sprint1.Task1.V8.Lib
         public double Calculate(double a, double x)
         {
 
-            return Math.Round((x * Math.PI) / a, 3);
+            return Math.Round((x * Math.PI) / a, 2);
         }
     }
 }
