@@ -1,0 +1,26 @@
+﻿using Tyuiu.SushchikIA.Sprint1.Task3.V17.Lib;
+
+DataService ds = new DataService();
+Console.Title = "Спринт #1 | Выполнил: Сущик И.А. | ПИНб-25-1";
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* Спринт #1                                                               *");
+Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
+Console.WriteLine("* Задание #3                                                              *");
+Console.WriteLine("* Вариант #17                                                             *");
+Console.WriteLine("* Выполнил: Сущик Игорь Александрович | ПИНб-25-1                         *");
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* УСЛОВИЕ:                                                                *");
+Console.WriteLine("* Написать программу, которая запрашивает у пользователя исходные данные, *");
+Console.WriteLine("* выполняет указанные расчёты и печатает результат на экране.             *");
+Console.WriteLine("*                                                                         *");
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
+string value = Console.ReadLine();
+double doubleValue = Convert.ToDouble(value);
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("*                                                                         *");
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+Console.WriteLine("***************************************************************************");
+Console.WriteLine(ds.ZeroCheck(doubleValue));
+Console.ReadLine();
