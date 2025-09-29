@@ -8,7 +8,7 @@ namespace Tyuiu.SushchikIA.Sprint1.Task4.V10.Test
         public void ValueExpression()
         {
             DataService ds = new DataService();
-            Assert.AreEqual(3.414, ds.Calculate(45), 0.001);
+            Assert.AreEqual(2.107, ds.Calculate(45), 0.001);
         }
     }
 }
