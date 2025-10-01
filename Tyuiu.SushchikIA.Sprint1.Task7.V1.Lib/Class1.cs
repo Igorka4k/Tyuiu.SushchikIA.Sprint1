@@ -5,7 +5,9 @@ namespace Tyuiu.SushchikIA.Sprint1.Task7.V1.Lib
     {
         public double Calculate(double a, double b, double c)
         {
-            return Math.Round(((b + Math.Sqrt(Math.Pow(b, 2) + 4 * a * c)) / (2 * a)) - a * a * a * c + Math.Sqrt(b), 3);
+            double z = (b + Math.Sqrt(b * b + 4 * a * c)) / (2 * a) - Math.Pow(a, 3) * c + Math.Pow(b, -2);
+            return Math.Round(z, 3);
+            //return Math.Round(((b + Math.Sqrt(Math.Pow(b, 2) + 4 * a * c)) / (2 * a)) - a * a * a * c + Math.Sqrt(b), 3);
         }
     }
 }
