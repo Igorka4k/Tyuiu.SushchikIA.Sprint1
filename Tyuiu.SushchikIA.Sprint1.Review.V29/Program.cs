@@ -1,0 +1,26 @@
+﻿using Tyuiu.SushchikIA.Sprint1.Review.V29.Lib;
+
+DataService ds = new DataService();
+Console.Title = "Спринт #1 | Выполнил: Сущик И.А. | ПИНб-25-1";
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* Спринт #1                                                               *");
+Console.WriteLine("* Задание #Review                                                              *");
+Console.WriteLine("* Вариант #29                                                             *");
+Console.WriteLine("* Выполнил: Сущик Игорь Александрович | ПИНб-25-1                         *");
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* УСЛОВИЕ:                                                                *");
+Console.WriteLine("* Написать программу, которая вычисляет выражение                         *");
+Console.WriteLine("* И печатает результат на экране                                          *");
+Console.WriteLine("*                                                                         *");
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
+string x = Console.ReadLine();
+string y = Console.ReadLine();
+double Valuex = Convert.ToDouble(x);
+double Valuey = Convert.ToDouble(y);
+Console.WriteLine("*                                                                         *");
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+Console.WriteLine("***************************************************************************");
+Console.WriteLine(ds.Calculate(Valuex, Valuey));
+Console.ReadLine();
